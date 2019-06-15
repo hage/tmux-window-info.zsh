@@ -1,4 +1,4 @@
-# tmux-window-info.zsh
+# tmuxtabinfo.zsh
 Display information in tmux tab.
 
 tmux のタブに様々な情報を表示します。
