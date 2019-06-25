@@ -5,6 +5,12 @@ Display information in tmux tab.
 
 `source tmuxtabinfo.zsh`
 
+### using zplug
+
+``` shell
+zplug "hage/tmuxtabinfo.zsh", use:tmuxtabinfo.zsh, hook-load:"tmuxtabinfo"
+```
+
 ## 概要
 
 tmux のタブに様々な情報を表示します。
