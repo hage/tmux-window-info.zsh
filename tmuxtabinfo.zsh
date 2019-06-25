@@ -1,7 +1,7 @@
 function is_tmux_runnning() { [ ! -z "$TMUX" ]; }
 
 function tmuxtabinfo() {
-    local tabinfo
+    local tabinfo project_name
     if is_tmux_runnning ; then
         project_name=`tmuxtabinfo_projectname`
         tabinfo=`basename $PWD`
