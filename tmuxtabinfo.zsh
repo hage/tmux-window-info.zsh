@@ -9,7 +9,7 @@ function tmuxtabinfo() {
     fi
 }
 
-function tmuxtabinfo_projectname {} {
+function tmuxtabinfo_projectname () {
     local project_name=`git rev-parse --show-toplevel 2>/dev/null`
     project_name=`git rev-parse --show-toplevel 2>/dev/null`
     if [ ! $project_name ]; then
